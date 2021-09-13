@@ -1,1 +1,1 @@
-# Fake-Job-Posting-Prediction
+# Classifying Fake Job Postings
