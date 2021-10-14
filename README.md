@@ -12,16 +12,10 @@ re
 time
 numpy
 pandas
-nltk.tokenize.word_tokenize
-nltk.corpus.stopwords
-sklearn.feature_extraction.text.TfidfVectorizer
-sklearn.model_selection.train_test_split
-sklearn.naive_bayes.MultinomialNB
-sklearn.ensemble.RandomForestClassifier
-sklearn.linear_model.PassiveAggressiveClassifier
-sklearn.metrics.classification_report
-sklearn.model_selection.GridSearchCV
+nltk
+sklearn
 ```
+
 ## Project Breakdown
 The main files for this project can be found under `notebooks`:
 
