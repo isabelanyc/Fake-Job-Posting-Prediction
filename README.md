@@ -1,6 +1,6 @@
 # Classifying Fake Job Postings
 <p align="center">
-  <img src="./images/fake.png"  width="600" height="200">
+  <img src="./images/fake.png"  width="550" height="300">
 </p>
 
 ## Project Summary
