@@ -26,16 +26,16 @@ sklearn
 ## Project Breakdown
 The main files for this project can be found under [`notebooks`](https://github.com/isabelanyc/Fake-Job-Posting-Prediction/tree/main/notebooks):
 
-- `1_cleaning_and_wrangling.ipynb`: 
+- [`1_cleaning_and_wrangling.ipynb`](https://github.com/isabelanyc/Fake-Job-Posting-Prediction/blob/main/notebooks/1_cleaning_and_wrangling.ipynb): 
    - Loaded the raw data, conducted some basic inspections for data types and null values. Also consolidated the textual data and cleaned it up by removing stopwords, lowercasing, removing punctuation and applying lemmatizer.
    
-- `2_eda.ipynb`:
+- [`2_eda.ipynb`](https://github.com/isabelanyc/Fake-Job-Posting-Prediction/blob/main/notebooks/2_eda.ipynb):
    - The main finding here was that the data is imbalanced and favors the real job postings.
    
-- `3_preprocessing.ipynb`:
+- [`3_preprocessing.ipynb`](https://github.com/isabelanyc/Fake-Job-Posting-Prediction/blob/main/notebooks/3_preprocessing.ipynb):
    - Since all of the cleaning and lemmatization was done in the first notebook, all that was left for me to was to convert the data into some numerical format. I decided to go with **TF-IDF** to accomplish this and limited the number of features to 10,000.
    
-- `4_modelling.ipynb`:
+- [`4_modelling.ipynb`](https://github.com/isabelanyc/Fake-Job-Posting-Prediction/blob/main/notebooks/4_modelling.ipynb):
    - I chose four different models to test out: 
       - Naive Bayes
       - K-Nearest Neighbor
