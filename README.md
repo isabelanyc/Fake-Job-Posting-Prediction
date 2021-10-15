@@ -1,7 +1,10 @@
 # Classifying Fake Job Postings
+<p align="center">
+  <img src="./images/fake_computer_dude.jpeg"  width="500" height="200">
+</p>
 
 ## Project Summary
-According to the [FBI](https://www.fbi.gov/contact-us/field-offices/elpaso/news/press-releases/fbi-warns-cyber-criminals-are-using-fake-job-listings-to-target-applicants-personally-identifiable-information) "Fake Job or Employment Scams occur when criminal actors deceive victims into believing they have a job or a potential job. Criminals leverage their position as “employers” to persuade victims to provide them with personally identifiable information (PII), become unwitting money mules, or to send them money." As a matter of fact, as reported from that same FBI article, "16,012 people reported being victims of employment scams in 2020, with losses totaling more than $59 million". These kinds of scams and illegal behaviors is exactly the reason companies such as Indeed and Linkedin have put practices into place that limit the the number of fraudulent job postings.
+According to the [FBI](https://www.fbi.gov/contact-us/field-offices/elpaso/news/press-releases/fbi-warns-cyber-criminals-are-using-fake-job-listings-to-target-applicants-personally-identifiable-information) "Fake Job or Employment Scams occur when criminal actors deceive victims into believing they have a job or a potential job. Criminals leverage their position as “employers” to persuade victims to provide them with personally identifiable information (PII), become unwitting money mules, or to send them money." As a matter of fact, as reported from that same FBI article, "16,012 people reported being victims of employment scams in 2020, with losses totaling more than $59 million". These kinds of scams and illegal behaviors are exactly the reasons why companies such as Indeed and Linkedin have put practices into place that limit the the number of fraudulent job postings on their site. 
 
 In this project, I created my own job posting classifier to tag jobs postings as real or fake. This is primarily an NLP project, as I only used textual data for modelling, but I did look at other numerical and categorical features from the original data during EDA. 
 
