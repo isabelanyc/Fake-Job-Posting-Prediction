@@ -24,7 +24,7 @@ sklearn
 ```
 
 ## Project Breakdown
-The main files for this project can be found under `notebooks`:
+The main files for this project can be found under [`notebooks`](https://github.com/isabelanyc/Fake-Job-Posting-Prediction/tree/main/notebooks):
 
 - `1_cleaning_and_wrangling.ipynb`: 
    - Loaded the raw data, conducted some basic inspections for data types and null values. Also consolidated the textual data and cleaned it up by removing stopwords, lowercasing, removing punctuation and applying lemmatizer.
