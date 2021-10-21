@@ -44,9 +44,19 @@ The main files for this project can be found under [`notebooks`](https://github.
 
 
 ## Results
+The performance of all the models were all quite good. KNN and PAC performed similarly, but KNN edged out PAC by a small amount in terms of accuracy and F1.
+```
+precision    recall  f1-score   support
+
+           0       0.99      0.99      0.99      5143
+           1       0.83      0.79      0.81       221
+
+    accuracy                           0.98      5364
+   macro avg       0.91      0.89      0.90      5364
+weighted avg       0.98      0.98      0.98      5364
+```
 
 
 ## Future Work
 Down the line, I would like to transform this project from being machine learning based to deep learning based. Instead of using TF-IDF for preprocessing, I would like to explore word embedding techniques with tools like **Word2Vec**. I also think it would be useful to use a POS tagger in addition to word tokens.
-
 
